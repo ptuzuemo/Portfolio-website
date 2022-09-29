@@ -1,0 +1,156 @@
+/* General */
+
+html>body {
+    font-family: 'Ubuntu';
+    background-color: #f3f9fc;
+
+}
+
+/* Introduction */
+#introduction nav {
+    padding: 2% 5%;
+    font-size: 1.3rem;
+    font-family: 'Ubuntu';
+}
+
+/* Before first section */
+
+.text-box>p {
+    padding: 3% 15%;
+    font-size: 1.1rem;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+p {
+    font-family: 'Ubuntu';
+    text-indent: 5%;
+    text-align: center;
+}
+
+/* Project section */
+
+.projects {
+    background-color: rgb(25, 25, 112);
+    text-align: center;
+}
+
+#projects-grid {
+
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    border: 2px solid #FFFFFF;
+    grid-gap: 4rem;
+    width: 100%;
+    margin-bottom: 6rem;
+    filter: drop-shadow(9px 9px 9px black)
+}
+
+.image {
+    width: 18rem;
+    height: 18rem;
+    padding: 2rem 2rem 2rem 2rem;
+    transition: 1s ease;
+    filter: drop-shadow(9px 9px 9px black)
+}
+
+.image:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 0.6s ease;
+    box-shadow: 0 0 10px 0 black inset, 0 0 20px 2px black;
+
+}
+
+a>p {
+    color: white;
+    text-decoration: none;
+    margin-top: -22px;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* footer */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #f3f9fc;
+}
+
+.social-icon {
+    color: black;
+    margin: 20px 10px;
+}
+
+/* Media queries */
+
+@media (max-width: 1028px) {
+
+    /* Button */
+    .navbutton {
+        margin: 0 auto;
+    }
+
+    .dropdown>a {
+        font-size: 1rem;
+    }
+
+    .dropdown>ul {
+        font-size: 0.8rem;
+    }
+    .collapse>ul>li {
+        font-size: 1rem;
+    }
+
+    .row>.col-lg-6>p {
+        text-align: justify;
+        font-size: 0.8rem;
+        text-indent: 15px;
+    }
+
+    .row>.col-lg-6>h1 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    /* Description section  */
+    #description>h1 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .text-box>p {
+        text-align: justify;
+        font-size: 0.8rem;
+        text-indent: 15px;
+    }
+
+    /* Project grid section  */
+
+    .image {
+        display: block;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    /* Footer */
+    .social-icon {
+        width: 2px;
+    }
+
+    #footer>p {
+        font-size: 0.8rem;
+    }
+
+
+}

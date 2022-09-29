@@ -1,0 +1,226 @@
+body {
+    font-family: 'Ubuntu';
+}
+
+/* Nav bar  & Introduction section*/
+
+.navbar {
+    margin-bottom: 10%;
+    font-family: 'Ubuntu';
+    font-size: 1.2rem;
+}
+
+.title-image {
+    width: 450px;
+    border: 5px solid #555;
+}
+
+.portfolio-icon {
+    color: rgb(25, 25, 112);
+}
+
+h1 {
+    font-family: 'Montserrat';
+    color: rgb(25, 25, 112);
+}
+
+p {
+    font-family: 'Ubuntu';
+    color: black;
+}
+
+
+
+
+#introduction {
+    padding: 3% 15%;
+    color: black;
+    background-color: #f3f9fc;
+}
+
+
+
+
+/* Deactivated CSS for whatido section */
+
+/* 
+#whatido {
+    background-color: rgb(25, 25, 112);
+    color:white;
+}
+#whatido h1 {
+color:white;
+} */
+
+/* Second section */
+
+#recent-projects {
+    background-color: rgb(25, 25, 112);
+    text-align: center;
+}
+
+h2 {
+    padding-top: 100px;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 13%;
+}
+
+.carousel-image {
+    width: 500px;
+    filter: drop-shadow(9px 9px 9px black);
+
+}
+
+.carousel-image:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 0.6s ease;
+
+}
+
+.carousel-caption {
+    color: white;
+    font: 'Ubuntu';
+}
+
+.button {
+
+    height: 3rem;
+    width: 7rem;
+    border: 2px solid #FFFFFF;
+    border-radius: 1rem;
+    margin: 0 auto;
+    background-color: rgb(25, 25, 112);
+    filter: drop-shadow(9px 9px 9px black)
+}
+
+.button>a {
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.button>a:hover {
+    color: black;
+}
+
+.button:hover {
+    background-color: #f3f9fc;
+}
+
+.areas-interest {
+    padding-top: 30px;
+}
+
+
+/* footer */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #f3f9fc;
+}
+
+.social-icon {
+    color: black;
+    margin: 20px 10px;
+}
+
+/* Media queries  */
+
+
+
+@media (max-width: 1028px) {
+
+    /* Top par of the page  */
+
+    .title-image {
+        display:block;
+        width: 200px;
+        border: 5px solid #555;
+        margin: 0 auto;
+
+    }
+
+    .navbutton {
+        margin: 0 auto;
+    }
+    .dropdown > a {
+        font-size: 1rem;
+    }
+    .dropdown > ul  {
+        font-size: 0.8rem;
+    }
+
+    .collapse>ul>li {
+        font-size: 1rem;
+    }
+
+    .row>.col-lg-6>p {
+        text-align: justify;
+        font-size: 0.8rem;
+        text-indent: 15px;
+    }
+
+    .row>.col-lg-6>h1 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    /* Recent projects section */
+
+    .carousel-image {
+        width: 210px;
+    }
+
+    .carousel-caption {
+        visibility: hidden;
+        font-size: 0.8rem;
+    }
+
+    #recent-projects>h2 {
+        font-size: 1rem;
+        padding-top: 15px;
+    }
+
+    .button {
+        width: 75px;
+    }
+
+    .button>a {
+        font-size: 0.8rem;
+    }
+
+    .carousel-control-prev {
+        margin-top: -350px;
+
+    }
+
+    .carousel-control-next {
+        margin-top: -350px;
+    }
+
+    #areasOfinterest>h2 {
+        padding-top: 35px;
+        font-size: 1rem;
+    }
+
+    /* Footer */
+    .social-icon {
+        width: 2px;
+    }
+
+    #footer>p {
+        font-size: 0.8rem;
+    }
+
+
+}

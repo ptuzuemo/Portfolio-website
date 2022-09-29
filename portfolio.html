@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio website</title>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+
+  <link rel="stylesheet" href="portfolio.css">
+
+  <!-- Font Awesome -->
+
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  <script src="https://kit.fontawesome.com/68378d4959.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+</head>
+</head>
+
+<body>
+  <section id="introduction">
+
+    <!-- Nav bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand text-dark" href="" style=" font-size:2.5rem;" id="portfolio"><i
+          class="fa-solid fa-book-open-reader portfolio-icon"></i> Portfolio</a>
+      <button class="navbar-toggler bg-dark navbutton" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item mx-auto">
+            <a class="nav-link text-dark" href="">Home</a>
+          </li>
+
+
+          <!-- Change happening here for dropdown menu -->
+
+
+          <div class="dropdown">
+
+
+            <a class="nav-link text-dark btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Projects</a>
+
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="HTML/Html&Csspage.html">Html, Css & JavaScript</a></li>
+              <li><a class="dropdown-item" href="html/javascriptpage.html">JavaScript Algorithms & Data Structures</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Front end development libraries</a></li>
+              <li><a class="dropdown-item" href="#">Data visualization</a></li>
+              <li><a class="dropdown-item" href="#">Back end development & APIs</a></li>
+              <li><a class="dropdown-item" href="#">Python</a></li>
+              <li><a class="dropdown-item" href="#">Databases</a></li>
+            </ul>
+
+          </div>
+
+
+
+
+
+          <li class="nav-item mx-auto">
+            <a class="nav-link text-dark" href="#footer">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- About me -->
+
+    <div class="row">
+      <div class="col-lg-6">
+
+        <h1>Hi, I am Pladi Tuzuemo</h1>
+        <p> A <b>Business Information Systems</b> major at Illinois State University, passionate and aspiring to use
+          business,
+          technical knowledge, computer technology, and information management to lead the design and development
+          of leading-edge enterprise solutions. I also have a keen interest in <b>web development</b>.
+        </p>
+      </div>
+
+      <div class="col-lg-6">
+        <img class="title-image" src="images/pladi.png" alt="Pladi">
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+  <!-- Deactivated links for whatido section -->
+
+  <!-- <section id="whatido">
+    <div class="row">
+      <div class="p-4 col-lg-4 bg-dark">
+
+        <h1>Lorem</h1>
+
+
+      </div>
+      <div class="col-lg-4 bg-warning">
+
+        <h1>Lorem</h1>
+
+      </div>
+      <div class="col-lg-4  bg-danger">
+
+        <h1>Lorem</h1>
+
+      </div>
+    </div>
+
+  </section> -->
+
+
+  <section id="recent-projects">
+
+    <!-- Carousel -->
+    <h2> Recent projects</h2>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-interval="5000"
+      data-pause="hover">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <a href="html/tindog.html"><img src="images/tindog.png" class="carousel-image" alt="image of the project">
+            <p class="carousel-caption"><b>Tindog:</b> A responsive webpage for dogs online dating and geosocial
+              networking.</p>
+          </a>
+
+        </div>
+        <div class="carousel-item">
+          <a href="html/portfoliowebsite2.html"><img src="images/portfoliowebsite2.png" class="carousel-image"
+              alt="image of the project">
+            <p class="carousel-caption"><b>Portfolio website:</b> A single page portfolio website built using HTML &
+              CSS.</p>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://codepen.io/Tuzuemo/full/KKQEjNP"><img src="images/portfoliowebsite3.png"
+              class="carousel-image" alt="image of the project">
+            <p class="carousel-caption"><b>Portfolio website:</b> A multi-page portfolio website built using HTML, CSS &
+              JavaScript.</p>
+          </a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+      <!-- Show more button -->
+
+      <div>
+
+        <div class="button">
+          <a href="HTML/All_projects.html" target="_blank">Show all </a>
+        </div>
+      </div>
+
+      <section id="areasOfinterest">
+      <!-- Areas of interest -->
+      <h2>Areas of interest</h2>
+
+      <div class="container px-4 text-center areas-interest">
+
+        <div class="row gx-5">
+          <div class="col">
+            <div class="p-3 border bg-light box-text"><b><i class="fa-solid fa-cloud"></i> AWS & Cloud computing</b>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="p-3 border bg-light box-text"><i class="fa-solid fa-chart-line"></i> <b>Data Analytics</b></div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light box-text"><i class="fa-solid fa-computer"></i> <b>Programming</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <section id="footer">
+    <a href="https://www.facebook.com/pladi.tuzuemo" target="_blank"><i
+        class="social-icon fa-brands fa-facebook"></i></a>
+    <a href="https://www.twitter.com/Pladi19" target="_blank"><i class="social-icon fa-brands fa-twitter"></i></a>
+    <a href="https://www.instagram.com/pladituzuemo/" target="_blank"><i
+        class="social-icon fa-brands fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/pladi-tuzuemo-384661195/" target="_blank"><i
+        class="social-icon fa-brands fa-linkedin"></i></a>
+    <a href="https://www.github.com/ptuzuemo" target="_blank"><i class="social-icon fa-brands fa-github "></i></a>
+    <a href="mailto:ptuzuemo1@gmail.com" target="_blank"><i class="social-icon fa-solid fa-envelope"></i></a>
+    <p>© Copyright Pladi Tuzuemo</p>
+
+  </section>
+  <script src="index.js"></script>
+</body>
+
+</html>

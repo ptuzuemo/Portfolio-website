@@ -26,7 +26,7 @@ This repository contains the code for my personal portfolio website, designed to
 To run the website locally on your machine, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser.
+2. Open the `portfolio.html` file in your web browser.
 3. Navigate through the website.
 
 ## Contributing
